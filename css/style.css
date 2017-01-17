@@ -1,0 +1,21 @@
+body {
+background-image:url("../images/bg.jpg");
+background-attachment:fixed;
+
+}
+
+header {
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+nav,
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
