@@ -1,21 +1,55 @@
 body {
 background-image:url("../images/bg.jpg");
 background-attachment:fixed;
+background-size: cover;
 
 }
 
 header {
-
+    background-color:
 }
 
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+a:active{
+    color: #cfa205;
+}
+li {
+    display: inline-block;
+    padding-right: 1em;
+}
 
+#social_nav{
+    background-color: #e8e8e8;
+}
 
 nav,
 h1,
 h2,
 h3 {
     text-transform: uppercase;
+}
+h1,
+h2 {
+    color: #cfa205;
+    text-align: center;
+}
+main {
+    background-color: white;
+}
+
+#baseline {
+    color: #7a7a7a;
+}
+
+#articles {
+
+}
+#articles p {
+    color: #7a7a7a;
 }
