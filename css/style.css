@@ -165,16 +165,20 @@ a:active {
  }
 
 .contact_page {
+    width: 1020px;
+    height: 1080px;
     background-color: #120c04;
 }
 
 form {
+    box-sizing: border-box;
     color: #cfa205;
     font-size: 18px;
     width: 700px;
     font-family: 'Bitter', serif;
     margin: auto;
     background-color: #120c04;
+    padding-top: 30px;
 
 }
 label {
@@ -193,4 +197,5 @@ input[type="submit"] {
 }
 fieldset {
         border: 1px solid #e8e8e8;
+        padding-top: 10px;
 }
