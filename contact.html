@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#" class="selected">home</a></li>
+                <li><a href="#">about the tests</a></li>
+                <li><a href="#">buy themes</a></li>
+                <li><a href="#">page layouts</a></li>
+                <li><a href="./contact.html">contact us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Create pro</h1>
+            <h2>Personal . business . organization</h2></div>
+    </header>
+    <main>
+        <ul id="social_nav">
+            <li>
+                <a href="#">ouoiuo<i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-google-plus-official"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </li>
+        </ul>
+        <form action="http://live.codincamp.fr/mail.php" method="post">
+            <!--method="get"-->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="nom">Name</label>
+                <input type="text" name="nom" id="nom" />
+
+                <label for="prenom">First Name</label>
+                <input type="text" name="prenom" id="prenom" />
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="subject">Subject</label>
+                <input type="text" name="nom" id="subject" />
+                <textarea name="Message"></textarea>
+            </fieldset>
+
+            <input class="send" type="submit" name="send" value="Send" />
+        </form>
+    </main>
+</body>
+
+</html>

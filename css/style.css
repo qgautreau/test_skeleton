@@ -163,3 +163,30 @@ a:active {
  .selected {
     color: #cfa205;
  }
+
+form {
+    color: #cfa205;
+    font-size: 18px;
+    width: 700px;
+    font-family: 'Bitter', serif;
+    margin: auto;
+    background-color: #120c04;
+
+}
+label {
+    display: block;
+}
+textarea {
+    width: 600px;
+    height: 150px;
+}
+input[type="submit"] {
+    color: #cfa205;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #e8e8e8;
+    margin: 5px;
+}
+fieldset {
+        border: 1px solid #e8e8e8;
+}
