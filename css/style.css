@@ -4,6 +4,8 @@ body {
     background-image: url("../images/bg.jpg");
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -38,6 +40,8 @@ div h1 {
     font-size: 133px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
+    margin: 0;
+    padding: 50px;
 }
 
 div h2 {
@@ -59,6 +63,8 @@ h3 {
 
 ul {
     list-style: none;
+    margin-top: 0;
+
 }
 
 
