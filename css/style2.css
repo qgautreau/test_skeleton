@@ -18,7 +18,6 @@ header {
     width: 1020px;
     height: 60px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
 }
 
 #menu li {
@@ -27,35 +26,19 @@ header {
     padding-top: 0.5em;
 }
 
-div {
+h1 {
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+h1 h2 {
     width: 1020px;
     height: 260px;
-    margin: auto;
-}
-
-div h1 {
-    max-height: 150px;
-    font-size: 133px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;
-}
-
-div h2 {
-    max-height: 110px;
-    font-family: 'Bitter', serif;
-    font-weight: 100;
-    padding: 0.05px;
 }
 
 h2, h3 {
     font-size: 18px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-}
-
-h3 {
     font-family: 'Bitter', serif;
-
 }
 
 ul {
@@ -68,8 +51,6 @@ ul {
     background-color: #e8e8e8;
     text-align: center;
     padding: 0;
-    margin: 0;
-
 }
 
 #social_nav img {
@@ -107,7 +88,6 @@ main {
     padding-top: 100px;
     margin: auto;
     font-family: 'Bitter', serif;
-    font-weight: bold;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -118,14 +98,16 @@ section {
 }
 
 article {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
     width: 260px;
     height: 482px;
     font-family: 'Bitter', serif;
     margin-left: 30px;
-    padding: 10px;
+    padding: 30px;
 }
 
 #articles figure {
@@ -147,6 +129,3 @@ a {
 a:active {
     color: #cfa205;
 }
- .selected {
-    color: #cfa205;
- }
