@@ -164,6 +164,10 @@ a:active {
     color: #cfa205;
  }
 
+.contact_page {
+    background-color: #120c04;
+}
+
 form {
     color: #cfa205;
     font-size: 18px;
