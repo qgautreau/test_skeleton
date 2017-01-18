@@ -160,7 +160,8 @@ a {
 a:active {
     color: #cfa205;
 }
- .selected {
+
+.selected {
     color: #cfa205;
  }
 
@@ -168,6 +169,12 @@ a:active {
     width: 1020px;
     height: 1080px;
     background-color: #120c04;
+}
+
+.contact-form {
+    color: #cfa205;
+    text-align: center;
+    font-size: 28px;
 }
 
 form {
@@ -181,13 +188,27 @@ form {
     padding-top: 30px;
 
 }
+
 label {
     display: block;
 }
+
 textarea {
     width: 600px;
     height: 150px;
+    font-size: 20px;
+    text-transform: capitalize;
 }
+
+#last_name {
+    text-transform: uppercase;
+}
+
+#subject {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 input[type="submit"] {
     color: #cfa205;
     font-weight: bold;
@@ -195,6 +216,11 @@ input[type="submit"] {
     background-color: #e8e8e8;
     margin: 5px;
 }
+
+#first_name{
+    text-transform: capitalize;
+}
+
 fieldset {
         border: 1px solid #e8e8e8;
         padding-top: 10px;
